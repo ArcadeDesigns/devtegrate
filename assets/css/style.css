@@ -1129,7 +1129,7 @@ section{
 .integration_content h2{
     text-align: left;
     font-size: 2em;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     color: var(--secondary_color);
     font-weight: 700;
 }
@@ -1926,6 +1926,7 @@ section{
 }
 
 .explore_btn button{
+    box-shadow: 0 5px 25px rgb(2 2 2 / 40%);
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -2791,6 +2792,11 @@ section{
 /***********************************************************************************************************************************************************************/
 /***********************************************************************************************************************************************************************/
 /***********************************************************************************************************************************************************************/
+.space{
+    padding: 3.7% 0;
+    background-color: var(--header_color);
+    margin: 0 0 1% 0;
+}
 
 .footer{
     background-color: var(--header_color);
@@ -2809,7 +2815,7 @@ section{
     margin: 20% 3% 0 5%;
 }
 
-.footer_mail{
+.footer_mail form{
     justify-content: center;
     align-items: center;
     margin: 5% 5% 0 5%;
@@ -2833,7 +2839,7 @@ section{
     margin-left: 5%;
 }
 
-.footer_mail input{
+.footer_mail form input{
     outline: none;
     border: 1px solid var(--secondary_color);
     border-bottom-left-radius: 5px;
@@ -2845,7 +2851,7 @@ section{
     font-size: 0.8rem;
 }
 
-.footer_mail i{
+.footer_mail form i{
     font-size: 1.4rem;
     color: var(--primary_color);
     background-color: var(--secondary_color);
@@ -3625,6 +3631,11 @@ div.line-footer {
 }
 
 @media (max-width: 1024px){
+    .space{
+        padding: 5.1% 0;
+        background-color: var(--header_color);
+        margin: 0 0 1% 0;
+    }
     header .brand{
         width: 200px;
         height: 60px;
@@ -3890,6 +3901,11 @@ div.line-footer {
 }
 
 @media (max-width: 820px){
+    .space{
+        padding: 6.2% 0;
+        background-color: var(--header_color);
+        margin: 0 0 1% 0;
+    }
     .team_sub_container_flex{
         flex-direction: column;
     }
@@ -4108,6 +4124,9 @@ div.line-footer {
 }
 
 @media (max-width: 740px){
+    .space{
+        display: none;
+    }
     .section_title{
         width: 100%;
         margin: 10px;

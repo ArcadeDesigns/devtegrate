@@ -119,3 +119,11 @@
           document.getElementById('message').value,
       }).then((message) => alert('Message Successfully Sent'));
     }
+
+    // Subscription Functions //
+    function popUpMessage() {
+      alert('Click on the Link Below or Visit our Contact Page');
+    }
+
+    function popUp() { 
+      Calendly.initBadgeWidget({ url: 'calendly_form.html', text: 'Get In touch with Devtegrate. <br> Start Consulting', color: '#35A6FF', textColor: '#ffffff' }); }</script>
