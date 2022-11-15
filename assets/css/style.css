@@ -3272,6 +3272,22 @@ div.line-footer {
     color: var(--header_color);
 }
 
+.faq_content span li{
+    outline: none;
+}
+
+.faq_content span li a{
+    text-decoration: none;
+    font-size: 0.95em;
+    color: var(--header_color);
+}
+
+.faq_content span li a:hover{
+    text-decoration: none;
+    font-size: 1.15em;
+    color: var(--secondary_color);   
+}
+
 .faq h4{
     text-align: center;
     padding: 5% 0;
