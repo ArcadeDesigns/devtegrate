@@ -2838,8 +2838,8 @@ section{
 .help_center_container{
     justify-content: center;
     align-items: center;
-    margin: 2px 10%;
-    padding: 2%;
+    margin:0 10px 0 10px;
+    height: auto;
 }
 
 .help_center_container .title{
