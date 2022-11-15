@@ -1431,22 +1431,35 @@ section{
     background-position: center;
     background-size: cover;
     height: 80vh;
+    position: relative;
 }
 
 .next_about_btn{
     justify-content: center;
     align-items: center;
     display: flex;
-    bottom: 0;
+
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .next_about_btn button{
-    margin: auto;
+    margin: 0;
     width: 200px;
     height: 40px;
     border-radius: 8px;
-    border: 1px solid var(--secondary_color);
-    background-color: var(--secondary_color);
+    border: 1px solid var(--text_color);
+    background-color: var(--text_color);
+
+}
+
+.next_about_btn button:hover{
+    border: 1px solid var(--header_color);
+    background-color: var(--header_color);
 
 }
 
@@ -1944,6 +1957,13 @@ section{
 
 .explore_btn{
     margin: 15px 0;
+}
+
+.explore_btn p{
+    font-size: 0.8em;
+    color: var(--text_color);
+    padding: 4% 10px 2% 10px;
+    text-align: center;
 }
 
 .explore_btn button{
@@ -2816,18 +2836,14 @@ section{
 
 /*********************************************************************HELP - CENTER - SECTION***********************************************************************************/
 .help_center_container{
-    background-color: var(--header_color);
-    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 10%;
+    padding: 2%;
 }
 
 .help_center_container .title{
-    padding: 5%;
-}
-
-.help_center_container .title h2{
-    text-align: center;
-    color: var(--text_color);
-    font-weight: 400;
+    padding: 1% 5%;
 }
 
 
