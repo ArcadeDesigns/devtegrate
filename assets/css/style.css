@@ -816,16 +816,16 @@ section{
     color: var(--primary_color);
 }
 
-.subscription_input{
+.subscription_input form{
     width: 60%;
-    height: 55px;
+    height: 53px;
     justify-content: center;
     align-items: center;
     margin: 5%;
     display: flex;
 }
 
-.subscription_input input{
+.subscription_input form input{
     width: 100%;
     height: 100%;
     border-top-left-radius: 8px;
@@ -835,6 +835,27 @@ section{
     padding-left: 10px;
     background: transparent;
 }
+
+.subscription_input form button{
+    outline: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: var(--primary_color);
+    background-color: var(--secondary_color);
+    border: 1px solid var(--secondary_color);
+}
+
+.subscription_input form button .fa{
+    font-size: 1.4rem;
+    color: var(--primary_color);
+    background-color: var(--secondary_color);
+    padding: 14px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: auto;
+    height: auto;
+}
+
 
 .subscription_section .subscription_input a{
     background: var(--primary_color);
@@ -5039,7 +5060,7 @@ div.line-footer {
     .inspiration_content_box span{    
         font-size: 0.6em;
     }
-    .subscription_input{
+    .subscription_input form{
         width: 100%;
     }
 }
@@ -5104,7 +5125,7 @@ div.line-footer {
 }
 
 @media (max-width: 360px) {
-    .subscription_input{
+    .subscription_input form{
         width: 100%;
     }
     .about_header_content h3{

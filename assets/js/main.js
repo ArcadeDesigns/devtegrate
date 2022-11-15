@@ -104,7 +104,7 @@
       Email.send({
         Host: "smtp.office365.com",
         Username: "contact@devtegrate.com",
-        Password: "Welcome2022@@eva",
+        Password: "Welcome2023@@eva",
         To: "folayemiebire@gmail.com",
         From: document.getElementById("email").value,
         Subject: 'You Have a New Schelduled Conference',
@@ -122,5 +122,5 @@
 
     // Subscription Functions //
     function popUpMessage() {
-      alert('Click on the Link Below or Visit our Contact Page');
+      alert('Thank You for Subscribing to Our Services and Update, Click "Okay" to Schedule of Video Conference with Us for Consultation.');
     }
